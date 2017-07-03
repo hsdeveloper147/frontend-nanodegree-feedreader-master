@@ -84,7 +84,7 @@ $(function() {
             expect(b).toBeFalsy();
 
             $('.menu-icon-link').click();
-            var b = $('body').hasClass('menu-hidden');
+            b = $('body').hasClass('menu-hidden');
             expect(b).toBeTruthy();
         });
     });
